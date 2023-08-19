@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainwrapper{
+    height: 40vh;
+    width: 80vw;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 30px 0px ;
+    margin: 2rem auto;
+    box-shadow: 5px 5px 5px 0px #80808082;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.addsec ,
+.multsec{
+    width: 35vw;
+    height: 30vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow:inset 1px 1px 70px gainsboro;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: initia;
+}
+
+.addsec{
+    background-color: red;
+}
+.multsec{
+    background-color: green;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+input{
+    width: 10vw;
+    height: 5vh;
+
+}
+span{
+    font-weight: bold;
+}
+label{
+    font-weight: bold;
+    padding-left: 1rem;
+}
